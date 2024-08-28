@@ -1,0 +1,54 @@
+form{
+    border: 1px solid #9b9797;
+    border-radius: 6px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: inherit;
+    margin-bottom: 20px;
+    gap: 1vmin;
+}
+
+.ff{
+    display: flex;
+    width: 100%;
+    input, textarea{
+        width: 90%;
+        outline: none;
+    }
+    textarea{
+        resize: none;
+        height: 15vmin;
+    }
+}
+.blck{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.btn1{
+    border: 1px solid #000;
+    border-radius: 5px;
+    width: 150px;
+    padding: 3px 0px;
+    cursor: pointer;
+}
+
+.btn2{
+    border: 1px solid #000;
+    border-radius: 5px;
+    width: 150px;
+    padding: 3px 0px;
+    cursor: pointer;
+}
+
+.btn1:hover, .btn2:hover{
+    scale: 1.1;
+}
+
+.btn1:active, .btn2:active{
+    scale: .95;
+    transition: scale .5s;
+}

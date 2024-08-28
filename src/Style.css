@@ -1,0 +1,38 @@
+body{
+    font-family: sans-serif;
+    margin: 0;
+    background: #e9ceaee8;
+}
+
+.container{
+    position: relative;
+    overflow: hidden;
+}
+
+.blog{
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.post{
+    position: relative;
+    background: #d0d6ebd0;
+    box-shadow: 10px 5px 10px 2px rgba(34, 60, 80, 0.2);
+    border: 1px solid #968f8f;
+    border-radius: 6px;
+    padding: 5px 20px;
+    margin-bottom: 20px;
+}
+
+.footer{
+    position: fixed;
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    border: 1px solid #000;
+    background: rgb(228, 228, 228);
+    bottom: 0;
+    width: 100vw;
+    height: 10vmin;
+}
