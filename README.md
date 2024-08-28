@@ -1,6 +1,29 @@
-# site_post
-Сайт с постами. Тренировочная работа на react.  
+# Rsbuild Project
 
-На сайте реализовано добавление постов, удаление, чтение.
-Так же на сайт загружаются посты со свободного ресурса через json запросы. 
-Реализовано добавление постов по мере прокрутки страницы. 
+## Setup
+
+Install the dependencies:
+
+```bash
+pnpm install
+```
+
+## Get Started
+
+Start the dev server:
+
+```bash
+pnpm dev
+```
+
+Build the app for production:
+
+```bash
+pnpm build
+```
+
+Preview the production build locally:
+
+```bash
+pnpm preview
+```
